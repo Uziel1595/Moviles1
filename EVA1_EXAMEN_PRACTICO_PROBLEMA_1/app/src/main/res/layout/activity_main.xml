@@ -140,9 +140,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingLeft="50dp"
-            android:paddingTop="50dp"
-            android:paddingBottom="50dp"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="30dp"
             android:text="Resultado:"
             android:textColor="@android:color/background_dark" />
 
@@ -151,14 +151,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="50dp"
+            android:padding="30dp"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/txtTipoDatos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:text="m3"
             android:textColor="@android:color/background_dark" />
     </LinearLayout>
@@ -167,16 +167,12 @@
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:text="Calcular" />
 
     <Button
         android:id="@+id/btnCerrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:text="Cerrar" />
 
 </LinearLayout>
